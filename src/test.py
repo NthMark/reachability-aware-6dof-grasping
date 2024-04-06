@@ -12,7 +12,7 @@ import params
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-
+#das
 def test(args):
     # 3D CNN grasp planner
     grasp_model = CNN3d().to(device)
